@@ -1,0 +1,46 @@
+WeaponsX - new weapons for Scrap Mechanic Survival
+==================================================
+
+Made for Scrap Mechanic 1.0.7a (Steam, Windows 64-bit).
+
+REQUIRES SMLoader 1.5.0 or newer: https://github.com/CazymirTM/SMLoader
+CO-OP: EVERY player in the world needs SMLoader + WeaponsX.
+       (Co-op has not been tested yet.)
+
+INSTALL
+-------
+1. Install SMLoader 1.5.0 or newer first (see its README).
+2. Open your game folder:
+   Steam -> right-click Scrap Mechanic -> Manage -> Browse local files.
+3. Copy the  SMLoader  folder from this zip into the game folder and allow it
+   to merge with the existing SMLoader folder. It adds:
+     SMLoader\mods\WeaponsX.dll
+4. Load a Survival world and look in any Craftbot.
+
+The first time you take the Bazooka out it can be white for a few seconds,
+while the game converts its textures.
+
+USE
+---
+- Bazooka: 50 Metal Block Level 3, 15 Component Kit, 10 Circuit Board,
+  10 Cable Roll.
+- Rocket x2: 10 Metal Block Level 2, 2 Circuit Board, 5 Gasoline, 4 Ember.
+- Left mouse fires, right mouse aims. It reloads by itself (2.5 seconds) while
+  you have Rockets. The blast also hurts you and breaks blocks.
+
+GOOD TO KNOW
+------------
+- Back up your world before trying any mod.
+
+UNINSTALL
+---------
+Delete  SMLoader\mods\WeaponsX.dll
+A Bazooka and Rockets in your inventory are hidden, and come back if you
+reinstall.
+
+LICENCE
+-------
+WeaponsX is closed-source freeware (c) 2026 CeZeY22: free to use, but no
+re-uploads, modified versions or reverse engineering. See LICENSE.
+
+Not affiliated with or endorsed by Axolot Games.

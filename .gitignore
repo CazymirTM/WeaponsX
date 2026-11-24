@@ -1,0 +1,12 @@
+# CLOSED SOURCE: this repo publishes only the files listed below.
+# Everything else (src/, include/, assets/, build.ps1, MODLOG.md, build/, dist/)
+# stays on the author's machine and must never be committed.
+*
+!.gitignore
+!README.md
+!CHANGELOG.md
+!LICENSE
+!docs/
+docs/*
+!docs/INSTALL.txt
+!docs/*.jpg
