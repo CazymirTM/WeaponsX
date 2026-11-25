@@ -3,8 +3,8 @@
 # WeaponsX
 
 New weapons for **Scrap Mechanic Survival**, built on
-[SMLoader](https://github.com/CazymirTM/SMLoader). The first one is the
-**Bazooka**. More weapons are planned.
+[SMLoader](https://github.com/CazymirTM/SMLoader): the **Bazooka** and the
+**Gravity Smasher**. More weapons are planned.
 
 > Requires **SMLoader 1.5.0+** · Scrap Mechanic **1.0.7a** (Steam, Windows x64) ·
 > Survival only · **every player in the world needs it**
@@ -21,10 +21,31 @@ New weapons for **Scrap Mechanic Survival**, built on
 - **Made for it:** its own model, icons, sounds, explosion and smoke, and its
   own shoulder-holding and reload animations in first and third person.
 
+## Gravity Smasher
+
+![A mechanic holding the glowing Gravity Smasher](docs/smasher.jpg)
+
+- **A shotgun with a clip of five Gravity Balls.** Each ball fires eight
+  pellets. Press R to reload; it also reloads by itself when the clip is empty.
+- **Hit a robot** and a black hole opens on it: every robot within 16 m is
+  pulled in for 1.4 seconds, and most can't attack meanwhile.
+- **Then it blows up.** The blast kills any normal robot it reaches. The big
+  six-legged Farmbot takes three good hits; Lootbots survive it.
+- **A miss does nothing**, so aim.
+- **Mind the blast:** it also hurts you and breaks blocks.
+- **Made for it:** its own model, sounds, black hole and violet explosion, a
+  glowing core in your hands, own animations, and an ammo counter.
+
+![Black hole, robots pulled in, explosion](docs/gravity.jpg)
+
+## Recipes
+
 | Item | Craftbot recipe (unlocked from the start) |
 |---|---|
 | Bazooka | 50 Metal Block Level 3, 15 Component Kit, 10 Circuit Board, 10 Cable Roll |
 | Rocket x2 | 10 Metal Block Level 2, 2 Circuit Board, 5 Gasoline, 4 Ember |
+| Gravity Smasher | 50 Metal Block Level 3, 15 Component Kit, 15 Circuit Board, 20 Battery |
+| Gravity Balls x5 | 15 Metal Block Level 2, 3 Circuit Board, 10 Battery, 5 Glow |
 
 Left mouse fires, right mouse aims.
 
@@ -36,14 +57,19 @@ Left mouse fires, right mouse aims.
 3. Copy its `SMLoader` folder into your game folder and let it merge.
 4. Load a Survival world and look in any Craftbot.
 
-**Uninstall:** delete `SMLoader\mods\WeaponsX.dll`. A Bazooka and Rockets in
-your inventory are hidden, and come back if you reinstall.
+**Update from 1.0:** replace `SMLoader\mods\WeaponsX.dll`.
+
+**Uninstall:** delete `SMLoader\mods\WeaponsX.dll`. The weapons and their ammo
+in your inventory are hidden, and come back if you reinstall.
 
 ## Good to know
 
-- The first time you take the Bazooka out, it can be white for a few seconds
+- The first time you take a weapon out, it can be white for a few seconds
   while the game converts its textures.
-- **Co-op hasn't been tested yet.** Reports are welcome.
+- In first person the Gravity Smasher glows around its outline; the full glow
+  shows in third person.
+- **Co-op hasn't been tested yet, and neither have bosses.** Reports are
+  welcome. In co-op everyone needs the same version.
 - It works together with SMWaystones, SMJobsSystem and WokyMenu.
 - The mod doesn't change any game files. The holding and reload animations are
   made on your computer from the game's own files; none of those are in the mod.

@@ -17,16 +17,25 @@ INSTALL
      SMLoader\mods\WeaponsX.dll
 4. Load a Survival world and look in any Craftbot.
 
-The first time you take the Bazooka out it can be white for a few seconds,
-while the game converts its textures.
+Updating from 1.0: just replace WeaponsX.dll. In co-op everyone needs the same
+version.
+
+The first time you take a weapon out it can be white for a few seconds, while
+the game converts its textures.
 
 USE
 ---
 - Bazooka: 50 Metal Block Level 3, 15 Component Kit, 10 Circuit Board,
   10 Cable Roll.
 - Rocket x2: 10 Metal Block Level 2, 2 Circuit Board, 5 Gasoline, 4 Ember.
-- Left mouse fires, right mouse aims. It reloads by itself (2.5 seconds) while
-  you have Rockets. The blast also hurts you and breaks blocks.
+- Gravity Smasher: 50 Metal Block Level 3, 15 Component Kit, 15 Circuit Board,
+  20 Battery.
+- Gravity Balls x5: 15 Metal Block Level 2, 3 Circuit Board, 10 Battery, 5 Glow.
+- Left mouse fires, right mouse aims, R reloads the Gravity Smasher. Both
+  weapons reload by themselves when empty. The blasts also hurt you and break
+  blocks.
+- Gravity Smasher: hit a robot and it pulls all robots within 16 m together,
+  then blows up. A miss does nothing. Its ammo is shown at the lower right.
 
 GOOD TO KNOW
 ------------
@@ -35,7 +44,7 @@ GOOD TO KNOW
 UNINSTALL
 ---------
 Delete  SMLoader\mods\WeaponsX.dll
-A Bazooka and Rockets in your inventory are hidden, and come back if you
+The weapons and their ammo in your inventory are hidden, and come back if you
 reinstall.
 
 LICENCE
