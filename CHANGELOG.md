@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.3 (2026-11-25)
+
+- New weapon: **Gjadir**, the storm hammer. Five-hit combo that ends in a
+  thunder strike, a throw you aim with an arrow, and a call that brings it back
+  from anywhere.
+- It runs on **mana** instead of ammo. Charge it with lightning from the sky.
+- **Lightning strike** from the sky where the arrow points, and a **lightning
+  chain** that jumps from robot to robot.
+- **Flight**, and a whirling hammer while you hover.
+- **Bifrost**: travel to the waystones of SMWaystones.
+- **Bare hands** while the hammer is away: a thunderclap and a stomp.
+- Robots it destroys make it stronger and brighter, for three in-game days.
+- The throw and the lightning strike break blocks, trees and crates.
+- Own model, icon, sounds, effects and first- and third-person animations.
+
 ## 1.2 (2026-11-25)
 
 - New weapon: the **Energy Sword**. Slash with the left mouse button, send out

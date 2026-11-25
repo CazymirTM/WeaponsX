@@ -17,7 +17,7 @@ INSTALL
      SMLoader\mods\WeaponsX.dll
 4. Load a Survival world and look in any Craftbot.
 
-Updating from 1.0 or 1.1: just replace WeaponsX.dll. In co-op everyone needs the same
+Updating from an older version: just replace WeaponsX.dll. In co-op everyone needs the same
 version.
 
 The first time you take a weapon out it can be white for a few seconds, while
@@ -34,6 +34,8 @@ USE
 - Energy Sword: 35 Metal Block Level 3, 10 Component Kit, 10 Circuit Board,
   15 Battery.
 - Energy Flux x18: 10 Metal Block Level 2, 2 Circuit Board, 6 Battery, 3 Glow.
+- Gjadir: 75 Metal Block Level 3, 20 Component Kit, 20 Circuit Board,
+  30 Battery.
 - Bazooka and Gravity Smasher: left mouse fires, right mouse aims, R reloads the
   Gravity Smasher. Both reload by themselves when empty. The blasts also hurt
   you and break blocks.
@@ -48,6 +50,23 @@ USE
                   to cancel. 13 s cooldown.
     Jump          far higher while you hold the sword, every 8 s. You take no
                   fall damage, and a fall of 4 m or more smashes the ground.
+- Gjadir (100 mana, refills by itself):
+    Left mouse    five hits; the last one calls down thunder (15 mana)
+    Hold right    aim a throw, let go to throw (12 mana)
+    R             call the thrown hammer back (only with its slot selected)
+    Hold R        lightning that chains through up to 8 robots
+    Hold F        aim a lightning strike from the sky, let go to strike
+                  (25 mana, 15 s cooldown)
+    Hold Q        charge mana from the sky (12 s cooldown)
+    Tap Q         Bifrost: travel to a waystone (40 mana, 60 s cooldown).
+                  Needs the SMWaystones mod.
+    Space in air  fly for up to 12 s (9 s cooldown). W A S D, Space up,
+                  Ctrl down, Shift faster, Space twice to stop.
+    Hammer away   left mouse: thunderclap, right mouse: stomp (4 s cooldown)
+    Robots it destroys make it stronger and brighter. That fades 3 in-game
+    days after the first one.
+    The throw and the lightning strike break blocks, trees and crates, YOUR
+    OWN BUILDINGS TOO.
 
 GOOD TO KNOW
 ------------

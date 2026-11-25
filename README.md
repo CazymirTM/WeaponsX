@@ -4,7 +4,8 @@
 
 New weapons for **Scrap Mechanic Survival**, built on
 [SMLoader](https://github.com/CazymirTM/SMLoader): the **Bazooka**, the
-**Gravity Smasher** and the **Energy Sword**. More weapons are planned.
+**Gravity Smasher**, the **Energy Sword** and the storm hammer **Gjadir**. More
+weapons are planned.
 
 > Requires **SMLoader 1.5.0+** · Scrap Mechanic **1.0.7a** (Steam, Windows x64) ·
 > Survival only · **every player in the world needs it**
@@ -62,6 +63,37 @@ A floating blade from far beyond Earth.
 
 ![Energy wave, teleport arrow, ground smash](docs/sword_action.jpg)
 
+## Gjadir
+
+![A mechanic holding the glowing storm hammer Gjadir](docs/gjadir.jpg)
+
+A storm hammer with 100 mana instead of ammo. The mana refills by itself; when
+it runs out, only swings, the call and bare hands work until it is back to 20
+(charging always works).
+
+| Control | What it does |
+|---|---|
+| **Left mouse** | Five hits. The last one calls down thunder: 7.5 m, crater included (15 mana) |
+| **Hold right mouse** | Aim with the arrow, let go to throw, up to 45 m. Left mouse cancels (12 mana) |
+| **R** | Calls the thrown hammer back from anywhere, while its slot is selected |
+| **Hold R** | Lightning chain: up to 8 robots. Stronger the longer you hold and the more robots it reaches (13 mana/s) |
+| **Hold F** | Lightning strike from the sky, up to 60 m away. Let go to strike, click to cancel (25 mana, 15 s) |
+| **Hold Q** | Charge: lightning fills its mana in about 4 seconds (12 s) |
+| **Tap Q** | Bifrost: travel to a waystone (40 mana, 60 s). Needs [SMWaystones](https://github.com/CazymirTM/SMWaystones) |
+| **Jump again in the air** | Fly where you look, up to 12 s: Space up, Ctrl down, Shift faster, Space twice to stop. No fall damage (9 s) |
+| **Hammer away** | Bare hands: left mouse is a thunderclap, right mouse a stomp. Both throw robots about (4 s each) |
+
+- **Kills make it stronger.** Every robot it destroys adds 1.2% damage, up to
+  x2.2 at 100, and it glows brighter in five steps. It fades three in-game days
+  after the first kill.
+- **The throw and the lightning strike break blocks, trees and crates.** That
+  includes your own buildings, so watch where you aim.
+- **Made for it:** its own model, icon, sounds, lightning, Bifrost and
+  animations in first and third person, and a panel with mana, kills and
+  cooldowns.
+
+![Thunder strike, lightning chain, lightning strike, Bifrost](docs/gjadir_action.jpg)
+
 ## Recipes
 
 | Item | Craftbot recipe (unlocked from the start) |
@@ -72,6 +104,7 @@ A floating blade from far beyond Earth.
 | Gravity Balls x5 | 15 Metal Block Level 2, 3 Circuit Board, 10 Battery, 5 Glow |
 | Energy Sword | 35 Metal Block Level 3, 10 Component Kit, 10 Circuit Board, 15 Battery |
 | Energy Flux x18 | 10 Metal Block Level 2, 2 Circuit Board, 6 Battery, 3 Glow |
+| Gjadir | 75 Metal Block Level 3, 20 Component Kit, 20 Circuit Board, 30 Battery |
 
 Bazooka and Gravity Smasher: left mouse fires, right mouse aims.
 
@@ -83,7 +116,7 @@ Bazooka and Gravity Smasher: left mouse fires, right mouse aims.
 3. Copy its `SMLoader` folder into your game folder and let it merge.
 4. Load a Survival world and look in any Craftbot.
 
-**Update from 1.0 or 1.1:** replace `SMLoader\mods\WeaponsX.dll`.
+**Update from an older version:** replace `SMLoader\mods\WeaponsX.dll`.
 
 **Uninstall:** delete `SMLoader\mods\WeaponsX.dll`. The weapons and their ammo
 in your inventory are hidden, and come back if you reinstall.
@@ -94,6 +127,9 @@ in your inventory are hidden, and come back if you reinstall.
   while the game converts its textures.
 - In first person the Gravity Smasher glows around its outline; the full glow
   shows in third person.
+- Gjadir's flight uses W, A, S, D, Space, Ctrl and Shift, even if you changed
+  those keys in the game.
+- Gjadir does nothing to the Trashbot boss.
 - **Co-op hasn't been tested yet, and neither have bosses.** Reports are
   welcome. In co-op everyone needs the same version.
 - It works together with SMWaystones, SMJobsSystem and WokyMenu.
