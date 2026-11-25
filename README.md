@@ -3,8 +3,8 @@
 # WeaponsX
 
 New weapons for **Scrap Mechanic Survival**, built on
-[SMLoader](https://github.com/CazymirTM/SMLoader): the **Bazooka** and the
-**Gravity Smasher**. More weapons are planned.
+[SMLoader](https://github.com/CazymirTM/SMLoader): the **Bazooka**, the
+**Gravity Smasher** and the **Energy Sword**. More weapons are planned.
 
 > Requires **SMLoader 1.5.0+** · Scrap Mechanic **1.0.7a** (Steam, Windows x64) ·
 > Survival only · **every player in the world needs it**
@@ -38,6 +38,30 @@ New weapons for **Scrap Mechanic Survival**, built on
 
 ![Black hole, robots pulled in, explosion](docs/gravity.jpg)
 
+## Energy Sword
+
+![A mechanic holding the glowing Energy Sword](docs/sword.jpg)
+
+A floating blade from far beyond Earth.
+
+- **Left mouse: slash.** A combo of three that hits every robot in front of
+  you, as often as you like.
+- **Right mouse: energy waves** that cut through every robot in their way, up to
+  34 m. Each costs one Energy Flux, and the faster you fire, the stronger they
+  get. One wave never takes more than 60% of a robot's health. After 18 waves
+  it recharges for 30 seconds; R recharges it earlier.
+- **Hold Q: teleport.** A glowing arrow shows where you will land. Aim closer or
+  farther (up to 14 m), let go to teleport, right mouse to cancel. It doesn't go
+  through walls. 13 seconds cooldown.
+- **High jump:** about 5 m while you hold the sword, every 8 seconds, and you
+  land without fall damage.
+- **Ground smash:** fall 4 m or more after a high jump and you slam the ground.
+  The higher the fall, the bigger the blast (3.6 to 7.5 m, 30 to 95 damage).
+- **Made for it:** its own model, icons, sounds, effects and animations, and a
+  panel with ammo and cooldowns.
+
+![Energy wave, teleport arrow, ground smash](docs/sword_action.jpg)
+
 ## Recipes
 
 | Item | Craftbot recipe (unlocked from the start) |
@@ -46,8 +70,10 @@ New weapons for **Scrap Mechanic Survival**, built on
 | Rocket x2 | 10 Metal Block Level 2, 2 Circuit Board, 5 Gasoline, 4 Ember |
 | Gravity Smasher | 50 Metal Block Level 3, 15 Component Kit, 15 Circuit Board, 20 Battery |
 | Gravity Balls x5 | 15 Metal Block Level 2, 3 Circuit Board, 10 Battery, 5 Glow |
+| Energy Sword | 35 Metal Block Level 3, 10 Component Kit, 10 Circuit Board, 15 Battery |
+| Energy Flux x18 | 10 Metal Block Level 2, 2 Circuit Board, 6 Battery, 3 Glow |
 
-Left mouse fires, right mouse aims.
+Bazooka and Gravity Smasher: left mouse fires, right mouse aims.
 
 ## Install
 
@@ -57,7 +83,7 @@ Left mouse fires, right mouse aims.
 3. Copy its `SMLoader` folder into your game folder and let it merge.
 4. Load a Survival world and look in any Craftbot.
 
-**Update from 1.0:** replace `SMLoader\mods\WeaponsX.dll`.
+**Update from 1.0 or 1.1:** replace `SMLoader\mods\WeaponsX.dll`.
 
 **Uninstall:** delete `SMLoader\mods\WeaponsX.dll`. The weapons and their ammo
 in your inventory are hidden, and come back if you reinstall.

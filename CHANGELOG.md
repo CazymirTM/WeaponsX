@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.2 (2026-11-25)
+
+- New weapon: the **Energy Sword**. Slash with the left mouse button, send out
+  energy waves that cut through robots with the right one. The faster you fire
+  them, the stronger they get; a clip of 18 **Energy Flux** recharges in 30
+  seconds.
+- Hold Q to aim a teleport: an arrow shows where you will land.
+- High jump while you hold the sword, without fall damage. From 4 m and up the
+  landing smashes the ground and everything around you.
+- Own model, icons, sounds, effects and first- and third-person animations, and
+  an on-screen panel for ammo and cooldowns.
+
 ## 1.1 (2026-11-25)
 
 - New weapon: the **Gravity Smasher**, a shotgun with a clip of five **Gravity

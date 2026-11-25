@@ -17,7 +17,7 @@ INSTALL
      SMLoader\mods\WeaponsX.dll
 4. Load a Survival world and look in any Craftbot.
 
-Updating from 1.0: just replace WeaponsX.dll. In co-op everyone needs the same
+Updating from 1.0 or 1.1: just replace WeaponsX.dll. In co-op everyone needs the same
 version.
 
 The first time you take a weapon out it can be white for a few seconds, while
@@ -31,11 +31,23 @@ USE
 - Gravity Smasher: 50 Metal Block Level 3, 15 Component Kit, 15 Circuit Board,
   20 Battery.
 - Gravity Balls x5: 15 Metal Block Level 2, 3 Circuit Board, 10 Battery, 5 Glow.
-- Left mouse fires, right mouse aims, R reloads the Gravity Smasher. Both
-  weapons reload by themselves when empty. The blasts also hurt you and break
-  blocks.
+- Energy Sword: 35 Metal Block Level 3, 10 Component Kit, 10 Circuit Board,
+  15 Battery.
+- Energy Flux x18: 10 Metal Block Level 2, 2 Circuit Board, 6 Battery, 3 Glow.
+- Bazooka and Gravity Smasher: left mouse fires, right mouse aims, R reloads the
+  Gravity Smasher. Both reload by themselves when empty. The blasts also hurt
+  you and break blocks.
 - Gravity Smasher: hit a robot and it pulls all robots within 16 m together,
   then blows up. A miss does nothing. Its ammo is shown at the lower right.
+- Energy Sword:
+    Left mouse    slash, a combo of three that hits every robot in front of you
+    Right mouse   energy wave, cuts through robots up to 34 m away. Costs one
+                  Energy Flux. The faster you fire, the stronger they get. After
+                  18 waves it recharges for 30 s (R recharges it earlier).
+    Hold Q        aim a teleport, up to 14 m. Let go to teleport, right mouse
+                  to cancel. 13 s cooldown.
+    Jump          far higher while you hold the sword, every 8 s. You take no
+                  fall damage, and a fall of 4 m or more smashes the ground.
 
 GOOD TO KNOW
 ------------
