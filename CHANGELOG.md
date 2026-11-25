@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.4 (2026-11-26)
+
+- New weapon: the **Infinity Fork**, a farmer's fork for fighting and farming.
+- Every swing **picks up all items around you**, also what you just smashed out
+  of a crate.
+- **Block**, and **parry** at the right moment: no damage, and the robot is
+  stunned for 5 seconds.
+- **Plant Seeds**: pick a seed and how many, and it plants the free plots around
+  you, grow beds too.
+- **Power Crop**: soil bags, tomato seeds and two glowing Haybot **bodyguards**
+  that follow you and fight for you.
+- **Ice Aura** freezes robots, **Pump Up** makes you swing about twice as fast,
+  **Ironbark** doubles your health and gives a little armor for a minute.
+- Own model, icon, sounds, effects and first- and third-person animations.
+- Fixed: a harmless error when a robot is destroyed in the moment it is thrown.
+
 ## 1.3 (2026-11-25)
 
 - New weapon: **Gjadir**, the storm hammer. Five-hit combo that ends in a

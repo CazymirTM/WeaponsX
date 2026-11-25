@@ -36,6 +36,8 @@ USE
 - Energy Flux x18: 10 Metal Block Level 2, 2 Circuit Board, 6 Battery, 3 Glow.
 - Gjadir: 75 Metal Block Level 3, 20 Component Kit, 20 Circuit Board,
   30 Battery.
+- Infinity Fork: 40 Metal Block Level 3, 10 Component Kit, 10 Circuit Board,
+  10 Battery.
 - Bazooka and Gravity Smasher: left mouse fires, right mouse aims, R reloads the
   Gravity Smasher. Both reload by themselves when empty. The blasts also hurt
   you and break blocks.
@@ -67,6 +69,18 @@ USE
     days after the first one.
     The throw and the lightning strike break blocks, trees and crates, YOUR
     OWN BUILDINGS TOO.
+- Infinity Fork:
+    Left mouse    hits a little harder than a Sledgehammer and picks up all
+                  items within 8 m
+    Right mouse   block; raise it right before a hit to parry (no damage, the
+                  robot is stunned for 5 s)
+    Tap Q         plant seeds: pick a seed and how many, it plants the free
+                  plots within 10 m
+    Hold Q        Power Crop: 20 soil bags, 30 tomato seeds and two Haybot
+                  bodyguards for 15 minutes (15 min cooldown)
+    F             Ice Aura for 30 s: hits freeze robots (60 s cooldown)
+    Tap R         Pump Up: swing about twice as fast for 7 s (16 s cooldown)
+    Hold R        Ironbark for 60 s: +100 health and 20% armor (7 min cooldown)
 
 GOOD TO KNOW
 ------------
@@ -76,7 +90,7 @@ UNINSTALL
 ---------
 Delete  SMLoader\mods\WeaponsX.dll
 The weapons and their ammo in your inventory are hidden, and come back if you
-reinstall.
+reinstall. Do it while no bodyguards are out and Ironbark is off.
 
 LICENCE
 -------

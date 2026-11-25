@@ -4,8 +4,8 @@
 
 New weapons for **Scrap Mechanic Survival**, built on
 [SMLoader](https://github.com/CazymirTM/SMLoader): the **Bazooka**, the
-**Gravity Smasher**, the **Energy Sword** and the storm hammer **Gjadir**. More
-weapons are planned.
+**Gravity Smasher**, the **Energy Sword**, the storm hammer **Gjadir** and the
+**Infinity Fork**. More weapons are planned.
 
 > Requires **SMLoader 1.5.0+** · Scrap Mechanic **1.0.7a** (Steam, Windows x64) ·
 > Survival only · **every player in the world needs it**
@@ -94,6 +94,33 @@ it runs out, only swings, the call and bare hands work until it is back to 20
 
 ![Thunder strike, lightning chain, lightning strike, Bifrost](docs/gjadir_action.jpg)
 
+## Infinity Fork
+
+![A mechanic with the Infinity Fork between two glowing Haybot bodyguards](docs/fork.jpg)
+
+A farmer's fork that fights, farms and protects you.
+
+| Control | What it does |
+|---|---|
+| **Left mouse** | Hits like a Sledgehammer, a little harder (26 instead of 20). Every swing also picks up all items within 8 m, even what you just smashed out of a crate |
+| **Right mouse** | Block: three quarters less damage from the front. Raise it right before a hit to **parry**: no damage, and the robot is stunned for 5 s |
+| **Tap Q** | **Plant Seeds**: pick one of your seeds and how many. Plants the free plots within 10 m, grow beds too |
+| **Hold Q** | **Power Crop**: 20 soil bags, 30 tomato seeds and two bodyguards (15 min cooldown) |
+| **F** | **Ice Aura** for 30 s: your hits freeze robots for 7 to 8 s and hurt them slowly (60 s cooldown) |
+| **Tap R** | **Pump Up**: swing about twice as fast for 7 s (16 s cooldown) |
+| **Hold R** | **Ironbark** for 60 s: +100 health and 20% armor (7 min cooldown) |
+
+- **The bodyguards** are two green, glowing Haybots with 300 health each. They
+  follow you for 15 minutes, also through waystones, and fight the robots around
+  you. Your weapons don't hurt them, and they don't break crops or buildings.
+- **Ironbark is no heal:** your share of health stays the same, 60 of 100 becomes
+  120 of 200 and goes back when it ends.
+- **It never hits young crops**, so you can swing in your own farm.
+- **Made for it:** its own model, icon, sounds, ice, leaves, bark and animations
+  in first and third person, and a panel with the cooldowns.
+
+![Frozen robots, Ironbark, planting, Power Crop](docs/fork_action.jpg)
+
 ## Recipes
 
 | Item | Craftbot recipe (unlocked from the start) |
@@ -105,6 +132,7 @@ it runs out, only swings, the call and bare hands work until it is back to 20
 | Energy Sword | 35 Metal Block Level 3, 10 Component Kit, 10 Circuit Board, 15 Battery |
 | Energy Flux x18 | 10 Metal Block Level 2, 2 Circuit Board, 6 Battery, 3 Glow |
 | Gjadir | 75 Metal Block Level 3, 20 Component Kit, 20 Circuit Board, 30 Battery |
+| Infinity Fork | 40 Metal Block Level 3, 10 Component Kit, 10 Circuit Board, 10 Battery |
 
 Bazooka and Gravity Smasher: left mouse fires, right mouse aims.
 
@@ -119,7 +147,8 @@ Bazooka and Gravity Smasher: left mouse fires, right mouse aims.
 **Update from an older version:** replace `SMLoader\mods\WeaponsX.dll`.
 
 **Uninstall:** delete `SMLoader\mods\WeaponsX.dll`. The weapons and their ammo
-in your inventory are hidden, and come back if you reinstall.
+in your inventory are hidden, and come back if you reinstall. Do it while no
+bodyguards are out and Ironbark is off.
 
 ## Good to know
 
@@ -129,7 +158,9 @@ in your inventory are hidden, and come back if you reinstall.
   shows in third person.
 - Gjadir's flight uses W, A, S, D, Space, Ctrl and Shift, even if you changed
   those keys in the game.
-- Gjadir does nothing to the Trashbot boss.
+- Gjadir does nothing to the Trashbot boss, and the Infinity Fork can't freeze or
+  stun it.
+- Planting a lot of crops starts raids, like always.
 - **Co-op hasn't been tested yet, and neither have bosses.** Reports are
   welcome. In co-op everyone needs the same version.
 - It works together with SMWaystones, SMJobsSystem and WokyMenu.
