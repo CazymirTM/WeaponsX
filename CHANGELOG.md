@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.5 (2026-11-26)
+
+- New weapon: the **Blades Of Zavir**, two burning blades on chains. A nine-hit
+  combo that ends in a whirl into the ground, a hook that pulls you to a robot,
+  **Hyperion Spin**, **Hell Teleport** through the ground, **Fire Aura** that
+  sets robots on fire, and **Whiplash**, a wall of flames. Robots they destroy
+  make them hotter and stronger, like Gjadir.
+- **Gjadir, the Infinity Fork and the Blades Of Zavir are not crafted**, they
+  have to be found:
+  - Gjadir lies in about 3 % of Legendary and 0.3 % of Epic loot crates; lightning
+    strikes the crate when it drops.
+  - The Infinity Fork is dropped by about 7 % of Farmbots and 1 in 200 Haybots.
+  - The Blades Of Zavir lie only in warehouses: in 1 of 10 reward chests, or in
+    a loot crate there.
+  - Each find has its own burst of light or fire and a message.
+  - Weapons you already have stay yours.
+
 ## 1.4 (2026-11-26)
 
 - New weapon: the **Infinity Fork**, a farmer's fork for fighting and farming.

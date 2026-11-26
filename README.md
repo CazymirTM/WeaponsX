@@ -4,8 +4,8 @@
 
 New weapons for **Scrap Mechanic Survival**, built on
 [SMLoader](https://github.com/CazymirTM/SMLoader): the **Bazooka**, the
-**Gravity Smasher**, the **Energy Sword**, the storm hammer **Gjadir** and the
-**Infinity Fork**. More weapons are planned.
+**Gravity Smasher**, the **Energy Sword**, the storm hammer **Gjadir**, the
+**Infinity Fork** and the **Blades Of Zavir**. More weapons are planned.
 
 > Requires **SMLoader 1.5.0+** · Scrap Mechanic **1.0.7a** (Steam, Windows x64) ·
 > Survival only · **every player in the world needs it**
@@ -121,6 +121,30 @@ A farmer's fork that fights, farms and protects you.
 
 ![Frozen robots, Ironbark, planting, Power Crop](docs/fork_action.jpg)
 
+## Blades Of Zavir
+
+![A mechanic swinging the two burning Blades Of Zavir](docs/zavir.jpg)
+
+Two burning blades, one in each hand, on chains wound around your forearms.
+
+| Control | What it does |
+|---|---|
+| **Left mouse** | Nine swings, left and right blade by turns, then both (20 to 30 damage). The ninth whirls both blades into the ground and leaves burning ash for 4 s |
+| **Hold right mouse** | Lock on to a robot up to 45 m away, let go to hook it with a blade and pull yourself to it (5 s cooldown) |
+| **F** | **Hyperion Spin**: both blades whirl around you for 3.5 s and throw the robots away at the end (10 s cooldown) |
+| **Hold Q** | **Hell Teleport**: aim up to 30 m, let go to sink into the ground and burst out there, hurting everything around (12 s cooldown) |
+| **Tap Q** | **Fire Aura** for 15 s: 35% more damage, and every hit sets the robot on fire (40 s cooldown) |
+| **Hold R** | **Whiplash**: the blades whirl around you; after 1 s let go to raise a wall of flames 6.5 m ahead that throws robots into the air (16 s cooldown) |
+
+- **Robots they destroy make them hotter and stronger**, like Gjadir: up to
+  2.2 times the damage after 100 robots. It fades 3 in-game days after the
+  first one.
+- **They can't be crafted.** They lie in warehouses, see below.
+- **Made for it:** their own model, icon, sounds, fire and ash, dual-wield
+  animations in first and third person, and a panel with the cooldowns.
+
+![Hyperion Spin, Whiplash, Hell Teleport, Fire Aura](docs/zavir_action.jpg)
+
 ## Recipes
 
 | Item | Craftbot recipe (unlocked from the start) |
@@ -131,10 +155,17 @@ A farmer's fork that fights, farms and protects you.
 | Gravity Balls x5 | 15 Metal Block Level 2, 3 Circuit Board, 10 Battery, 5 Glow |
 | Energy Sword | 35 Metal Block Level 3, 10 Component Kit, 10 Circuit Board, 15 Battery |
 | Energy Flux x18 | 10 Metal Block Level 2, 2 Circuit Board, 6 Battery, 3 Glow |
-| Gjadir | 75 Metal Block Level 3, 20 Component Kit, 20 Circuit Board, 30 Battery |
-| Infinity Fork | 40 Metal Block Level 3, 10 Component Kit, 10 Circuit Board, 10 Battery |
 
 Bazooka and Gravity Smasher: left mouse fires, right mouse aims.
+
+**Found, not crafted:** Gjadir, the Infinity Fork and the Blades Of Zavir are
+loot, and each find is marked with its own burst of light or fire.
+
+| Weapon | Where |
+|---|---|
+| Gjadir | Legendary loot crates (3 in 100), Epic loot crates (3 in 1000). Lightning strikes the crate when it drops. |
+| Infinity Fork | Farmbots (7 in 100), Haybots (1 in 200). |
+| Blades Of Zavir | Only in warehouses: the reward chest at the end of a level (1 in 10), or a loot crate there (Legendary 4 in 100, Epic 8 in 1000, common 15 in 10000). |
 
 ## Install
 
@@ -142,7 +173,7 @@ Bazooka and Gravity Smasher: left mouse fires, right mouse aims.
    newer.
 2. Download the WeaponsX zip from **Releases**.
 3. Copy its `SMLoader` folder into your game folder and let it merge.
-4. Load a Survival world and look in any Craftbot.
+4. Load a Survival world and look in any Craftbot, or go and find the others.
 
 **Update from an older version:** replace `SMLoader\mods\WeaponsX.dll`.
 
@@ -158,8 +189,8 @@ bodyguards are out and Ironbark is off.
   shows in third person.
 - Gjadir's flight uses W, A, S, D, Space, Ctrl and Shift, even if you changed
   those keys in the game.
-- Gjadir does nothing to the Trashbot boss, and the Infinity Fork can't freeze or
-  stun it.
+- Gjadir does nothing to the Trashbot boss, the Infinity Fork can't freeze or
+  stun it, and the Blades Of Zavir don't set it (or Lootbots) on fire.
 - Planting a lot of crops starts raids, like always.
 - **Co-op hasn't been tested yet, and neither have bosses.** Reports are
   welcome. In co-op everyone needs the same version.

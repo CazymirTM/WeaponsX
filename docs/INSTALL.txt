@@ -16,6 +16,8 @@ INSTALL
    to merge with the existing SMLoader folder. It adds:
      SMLoader\mods\WeaponsX.dll
 4. Load a Survival world and look in any Craftbot.
+   Gjadir, the Infinity Fork and the Blades Of Zavir are not crafted: they
+   have to be found (see FOUND, NOT CRAFTED).
 
 Updating from an older version: just replace WeaponsX.dll. In co-op everyone needs the same
 version.
@@ -34,10 +36,6 @@ USE
 - Energy Sword: 35 Metal Block Level 3, 10 Component Kit, 10 Circuit Board,
   15 Battery.
 - Energy Flux x18: 10 Metal Block Level 2, 2 Circuit Board, 6 Battery, 3 Glow.
-- Gjadir: 75 Metal Block Level 3, 20 Component Kit, 20 Circuit Board,
-  30 Battery.
-- Infinity Fork: 40 Metal Block Level 3, 10 Component Kit, 10 Circuit Board,
-  10 Battery.
 - Bazooka and Gravity Smasher: left mouse fires, right mouse aims, R reloads the
   Gravity Smasher. Both reload by themselves when empty. The blasts also hurt
   you and break blocks.
@@ -81,6 +79,30 @@ USE
     F             Ice Aura for 30 s: hits freeze robots (60 s cooldown)
     Tap R         Pump Up: swing about twice as fast for 7 s (16 s cooldown)
     Hold R        Ironbark for 60 s: +100 health and 20% armor (7 min cooldown)
+- Blades Of Zavir:
+    Left mouse    nine swings; the ninth whirls into the ground and leaves
+                  burning ash
+    Hold right    lock on to a robot up to 45 m away, let go to hook it and
+                  pull yourself to it (5 s cooldown)
+    F             Hyperion Spin: the blades whirl around you for 3.5 s
+                  (10 s cooldown)
+    Hold Q        Hell Teleport: aim up to 30 m, let go to go through the
+                  ground (12 s cooldown)
+    Tap Q         Fire Aura for 15 s: more damage, hits set robots on fire
+                  (40 s cooldown)
+    Hold R        Whiplash: whirl, after 1 s let go for a wall of flames
+                  (16 s cooldown)
+    Robots they destroy make them hotter and stronger. That fades 3 in-game
+    days after the first one.
+
+FOUND, NOT CRAFTED
+------------------
+- Gjadir: about 3 in 100 Legendary loot crates and 3 in 1000 Epic loot crates.
+  Lightning strikes the crate when it drops.
+- Infinity Fork: about 7 in 100 Farmbots and 1 in 200 Haybots drop it.
+- Blades Of Zavir: only in warehouses. 1 in 10 reward chests at the end of a
+  level, or a loot crate there (Legendary 4 in 100, Epic 8 in 1000, rarely a
+  common one).
 
 GOOD TO KNOW
 ------------
